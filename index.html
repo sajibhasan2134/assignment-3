@@ -35,7 +35,8 @@
 
 </head>
 <body class="manrope">
-  <header class="md:container md:mx-auto">
+  <header
+   class="md:container md:mx-auto">
         <!-- nav bar -->
     <nav>
       <!-- title / navbar-start-section-->
@@ -65,7 +66,8 @@
         </div>
      </section>
   </header> 
-  <main class="bg-[#F4F4F4] sm:my-10 md:my-16 xl:my-20 sm:py-10 sm:p2 md:py-16 xl:py-20">
+  <main
+   class="bg-[#F4F4F4] sm:my-10 md:my-16 xl:my-20 sm:py-10 sm:p2 md:py-16 xl:py-20">
     <!-- about us / hero section -->
     <SEction class="md:container md:mx-auto">
       <div><img src="image/Vector.png" alt="Vector"></div>
@@ -183,16 +185,157 @@
     </section>  
   </main>
    <!--latest portfolio  -->
-   <section class="md:container md:mx-auto">
+   <section
+    class="mb-6 mx-2 md:mb-12 md:container md:mx-auto lg:mb-24">
     <!-- text section -->
    <div class="text-center">
      <div class="badge badge-lg bg-lime-100 font-bold">Explore our Latest works</div>
      <h2 class="font-bold text-4xl py-8">Our Latest Portfolio</h2>
      <p class="font-medium text-gray-500 mb-8 md:mx-20">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
    </div>
-   <!-- grid section -->
- 
+   <!-- grid section / card container -->
+    <div class="grid gap-4 md:grid-cols-2 lg:grid-cols-4">
+      <!-- card 1 -->
+      <div class="card bg-base-100 shadow-xl md:card-side md:col-span-2 lg:col-span-3">
+        <figure class="p-5">
+          <img
+            src="image/img1.png"
+            alt=""
+            class="rounded-xl" />
+        </figure>
+        <div class="card-body md:w-2/3">
+          <h2 class="card-title font-extrabold text-2xl">Commercial</h2>
+          <p class="font-medium text-gray-500">The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
+          <span class="badge font-bold text-xl">View Details</span>
+        </div>
+      </div>
+
+       <!-- card 2 -->
+       <div class="card bg-base-100 shadow-xl">
+        <figure class="p-5">
+          <img
+            src="image/img2.png"
+            alt=""
+            class="rounded-xl mx-auto" />
+        </figure>
+    </div>
+
+       <!-- card 3 -->
+       <div class="card bg-base-100 shadow-xl">
+        <figure class="p-5">
+          <img
+            src="image/img3.png"
+            alt=""
+            class="rounded-xl mx-auto" />
+        </figure>
+    </div>
+
+     <!-- card 4 -->
+     <div class="card bg-base-100 shadow-xl md:card-side md:col-span-2 lg:col-span-2">
+      <figure class="p-5">
+        <img
+          src="image/img4.png"
+          alt=""
+          class="rounded-xl" />
+      </figure>
+      <div class="card-body md:w-3/5">
+        <h2 class="card-title font-extrabold text-2xl">Commercial</h2>
+        <p class="font-medium text-gray-500">The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
+        <span class="badge font-bold text-xl">View Details</span>
+      </div>
+      </div>
+
+         <!-- card 5 -->
+         <div class="card bg-base-100 shadow-xl">
+          <figure class="p-5">
+            <img
+              src="image/img5.png"
+              alt=""
+              class="rounded-xl mx-auto" />
+          </figure>
+      </div>
+         <!-- card 6 -->
+         <div class="card bg-base-100 shadow-xl lg:hidden">
+          <figure class="p-5">
+            <img
+              src="image/img3.png"
+              alt=""
+              class="rounded-xl mx-auto" />
+          </figure>
+      </div>
+    </div>
    </section>
+   <!-- articles -->
+    <section class="bg-[#F4F4F4] mb-1 md:py-12 xl:py24">
+   <!-- articles container-->   
+      <div class="hero  md:container md:mx-auto md:py-12 xl:py24">
+        <!--text section  -->
+        <div class="hero-content text-center">
+          <div class="max-w-md">
+            <h1 class="text-5xl font-bold">Read Our Articles and News</h1>
+            <p class="py-6 font-medium text-gray-500">
+              The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- card container -->
+       <div class="md:container md:mx-auto lg:grid lg:grid-cols-3 gap-8">
+
+        <!-- card 1 -->
+        <div class="card-compact bg-base-100 rounded-xl mx-auto md:grid-cols-2 lg:grid-rows">
+          <figure class="p-5">
+            <img
+              src="image/article1.png"
+              alt=""
+              class="rounded-xl mx-auto w-full" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title font-extrabold">How to choose the furniture right  of your home.</h2>
+            <p class="font-medium text-gray-500">The barn house captivates with its blend of rustic charm and modern.</p>
+            <div class="card-actions">
+              <button class="btn font-bold">Read More</button>
+            </div>
+          </div>
+        </div> 
+
+        <!-- card 2 -->
+        <div class="card-compact bg-base-100 rounded-xl mx-auto md:grid-cols-2 lg:grid-rows">
+          <figure class="p-5">
+            <img
+              src="image/article2.png"
+              alt=""
+              class="rounded-xl mx-auto w-full" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title font-extrabold">How to choose the furniture right  of your home.</h2>
+            <p class="font-medium text-gray-500">The barn house captivates with its blend of rustic charm and modern.</p>
+            <div class="card-actions">
+              <button class="btn font-bold">Read More</button>
+            </div>
+          </div>
+        </div> 
+        <!-- card 3 -->
+        <div class="card-compact bg-base-100 rounded-xl mx-auto md:grid-cols-2 lg:grid-rows">
+          <figure class="p-5">
+            <img
+              src="image/article3.png"
+              alt=""
+              class="rounded-xl mx-auto w-full" />
+          </figure>
+          <div class="card-body">
+            <h2 class="card-title font-extrabold">How to choose the furniture right  of your home.</h2>
+            <p class="font-medium text-gray-500">The barn house captivates with its blend of rustic charm and modern.</p>
+            <div class="card-actions">
+              <button class="btn font-bold">Read More</button>
+            </div>
+          </div>
+        </div> 
+        
+       </div>
+
+      
+    </section>
 </body>
 </html>
 
